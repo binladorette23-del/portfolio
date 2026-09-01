@@ -65,7 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -95,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
 
     <section class="Home" id="Home">
         <div class="home-img">
-            <img src="dorette.jpg" alt="profile image">
+            <img src="images/do.jpeg" alt="profile image">
         </div>
 
         <div class="home-content" id="home">
@@ -125,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
         </div>
 
         <div class="About-img">
-            <img src="IMG-20260729-WA0005.jpg" alt="About Image">
+            <img src="images/IMG-20260729-WA0005.jpg" alt="About Image">
         </div>
     </section>
 
@@ -176,7 +177,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
                 <div class="wrapper">
 
                     <div class="testimonial-item">
-                        <img src="IMG-20260727-WA0041.jpg" alt="">
+                        <img src="images/IMG-20260727-WA0041.jpg" alt="">
 
                         <h2>Dorette</h2>
                         <div class="rating">
@@ -186,15 +187,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
                             <i class="bx bxs-star" id="star"></i>
                             <i class="bx bxs-star" id="star"></i>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore ut, a hic ad architecto
-                            officia voluptates nemo soluta aspernatur ducimus ipsam corrupti optio doloremque ipsa fugiat
-                            mollitia vitae. Dignissimos.</p>
+                        <p>Working with her was a great experience. She is creative, dedicated, and pays close attention to detail. The final result was better than I expected.</p>
                     </div>
 
                     <div class="testimonial-item">
-                        <img src="dorette.jpg" alt="">
+                        <img src="images/leo.jpeg" alt="">
 
-                        <h2>Binla</h2>
+                        <h2>Leonada</h2>
                         <div class="rating">
                             <i class="bx bxs-star" id="star"></i>
                             <i class="bx bxs-star" id="star"></i>
@@ -202,9 +201,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
                             <i class="bx bxs-star" id="star"></i>
                             <i class="bx bxs-star" id="star"></i>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore ut, a hic ad architecto
-                            officia voluptates nemo soluta aspernatur ducimus ipsam corrupti optio doloremque ipsa fugiat
-                            mollitia vitae. Dignissimos.</p>
+                        <p>A talented and hardworking developer with a strong eye for design. She understood what I needed and turned the idea into a clean, functional website.</p>
                     </div>
 
                     <div class="testimonial-item">
@@ -218,9 +215,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
                             <i class="bx bxs-star" id="star"></i>
                             <i class="bx bxs-star" id="star"></i>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore ut, a hic ad architecto
-                            officia voluptates nemo soluta aspernatur ducimus ipsam corrupti optio doloremque ipsa fugiat
-                            mollitia vitae. Dignissimos.</p>
+                        <p>She did an amazing job on the project. Her communication was clear, and she delivered everything on time. I would definitely recommend her work.</p>
                     </div>
                 </div>
             </div>
@@ -276,7 +271,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
 
         <form action="#" method="post">
             <div class="input-box">
-                <input type="text" name="fullName"  placeholder="Full Name" required>
+                <input type="text" name="fullName" placeholder="Full Name" required>
                 <input type="email" name="email" placeholder="email address" required>
             </div>
             <div class="input-box">
@@ -306,4 +301,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
