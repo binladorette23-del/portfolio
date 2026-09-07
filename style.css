@@ -304,13 +304,6 @@ span {
     display: flex;
     transition: transform 0.6s ease-in-out;
 }
-
-.testimonil-slider {
-    overflow: hidden;
-    position: relative;
-    max-width: 700px;
-    margin: 0 auto;
-}
  
 .testimonial-item{
     min-width: 100%;
@@ -345,6 +338,7 @@ span {
 }
 .testimonial-item p{
     font-size: 1.6rem;
+    text-align: justify;
     line-height: 1.6;
 }
 .star{

@@ -172,7 +172,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
 
         <div class="testimonial-box">
             <h2 class="heading">Testimonials</h2>
-            <div class="testimonil-slider">
+            <div class="testimonial-slider">
 
                 <div class="wrapper">
 
@@ -219,15 +219,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submitReview'])) {
                     </div>
                 </div>
             </div>
-            <button class="prev-btn">&#10094</button>
-            <button class="next-btn">&#10095</button>
-
-            <div class="dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-        </div>
 
         <!--Rate Me form-->
         <div class="rate-me-box">
